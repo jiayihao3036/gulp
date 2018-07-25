@@ -1,0 +1,6 @@
+{
+  "/api/users/signin": "/signin",
+  "/api/poslist": "/poslist",
+  "/api/userbanner":"/userbanner",
+  "/api/cart":"/cart"
+}

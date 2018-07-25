@@ -1,0 +1,57 @@
+{{each data}}
+		<li>
+			<div class="content1">
+				<a href="#">
+					<img src="https://img5.xingyunmao.cn{{$value.imgs[0]}}"/>
+				</a>
+				<div class="contentright">
+					<a href="#"><img src="https://img5.xingyunmao.cn{{$value.imgs[1]}}"/></a>
+					<a href="#"><img src="https://img5.xingyunmao.cn{{$value.imgs[2]}}"/></a>
+					<a href="#"><img src="https://img5.xingyunmao.cn{{$value.imgs[3]}}"/></a>
+				</div>
+			</div>
+			<div class="pp"><span>¥{{$value.price}}</span><span >
+				{{$value.name}}
+			</span>
+		</div>
+			<div class="pp2" id='mybanner'>
+				<div class="swiper-container mytest">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide">
+				        	<span>¥{{$value.price}}</span>					
+								<span>
+									<b>已抢获¥102购物劵/9.5折</b><img src="https://img6.xingyunmao.cn/avatar/cd6df2c1-889c-453d-aec0-2ab9f02bde57" />
+								</span>	
+				        </div>
+				        <div class="swiper-slide">
+				        <span>¥{{$value.price}}</span>					
+						<span>
+							<b>已抢获¥92购物劵/5.5折</b><img src="https://img6.xingyunmao.cn/avatar/3a2f920b-a060-4634-bbda-1a8e6866d960" />
+						</span>	
+				        </div>
+				        <div class="swiper-slide">
+				        	  <span>¥{{$value.price}}</span>					
+								<span>
+									<b>已抢获¥62购物劵/5.0折</b><img src="https://img6.xingyunmao.cn/avatar/af3b6635-9603-4e6c-b813-826a23d8d23c" />
+								</span>	
+				        </div>
+				         <div class="swiper-slide">
+				        	  <span>¥{{$value.price}}</span>					
+								<span>
+									<b>已抢获¥152购物劵/7.0折</b><img src="https://img6.xingyunmao.cn/avatar/c01029c9-80ba-4971-8556-a78bd4fb37e8" />
+								</span>	
+				        </div>
+				         <div class="swiper-slide">
+				        	  <span>¥{{$value.price}}</span>					
+								<span>
+									<b>已抢获¥78购物劵/4.0折</b><img src="https://img6.xingyunmao.cn//avatar/8c3cb48e-647c-43c0-8082-ad738a4d877b" />
+								</span>	
+				        </div>
+				    </div>									
+				</div>
+			
+				
+				<button id="{{$value.id}}">游戏抢劵</button>
+			</div>				
+		</li>
+{{/each}}

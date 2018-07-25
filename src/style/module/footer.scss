@@ -1,0 +1,35 @@
+.myfooter{  
+    height: .44rem;
+    @include flexbox();
+    width: 100%;
+    @include border(1px 0 0 0,rgb(110,110,110));
+    
+     ul{
+        background-color: white;
+        @include flexbox();
+        @include flex();
+        margin: 0;
+        padding: 0;  
+         li{
+            opacity: 0.8;
+            list-style: none;
+            width: 25%;
+            height: .44rem;
+            @include flexbox();
+            @include align();
+            font-size: .12rem;
+            @include flex-direction(column);
+            
+             span{
+                font-family: 'iconfont'!important;
+                font-size: .20rem;
+                font-weight: 100;
+            }
+        }
+    }
+}
+.active{
+         background-color: #FF8C29;
+                opacity: 0.5;
+                color: white; 
+            }

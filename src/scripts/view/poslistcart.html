@@ -1,0 +1,17 @@
+{{each data}}
+			<li>
+				<div class="goodsheader">
+					<span>{{$value.name}}</span>
+				</div>
+				<div class="goods">
+					<ul>
+						{{each $value.sub}}
+							<li>							 
+								<img src="https://img6.xingyunmao.cn{{$value.img}}"/>								
+								<span>{{$value.name}}</span>
+							</li>
+						{{/each}}
+					</ul>
+				</div>
+			</li>
+{{/each}}

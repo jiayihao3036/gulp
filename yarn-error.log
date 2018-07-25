@@ -1,0 +1,67 @@
+Arguments: 
+  E:\nodeclips\node.exe E:\bin\yarn.js start
+
+PATH: 
+  E:\app\Administrator\product\11.2.0\dbhome_2\bin;E:\app\Administrator\product\11.2.0\dbhome_1\bin;.;C:\Program Files (x86)\Java\jdk1.8.0_91\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\110\Tools\Binn\;E:\Node.JS\;C:\Program Files\Microsoft\Web Platform Installer\;F:\Git\cmd;E:\nodeclips\;E:\bin\;D:\Tools\WinNT;D:\MSDev98\Bin;D:\Tools;D:\VC98\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Administrator\Desktop\gulptest\package.json: Unexpected token / in JSON at position 314
+      at JSON.parse (<anonymous>)
+      at E:\lib\cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (E:\lib\cli.js:98:30)
+      at E:\lib\cli.js:109:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "scripts": {
+      "start": "./node_modules/.bin/gulp --gulpfile ./gulpfile-dev.js",
+      "build": "./node_modules/.bin/gulp --gulpfile ./gulpfile-build.js",
+      "mock": "./node_modules/.bin/json-server ./src/mock/mock.js -p 9000 -r ./src/mock/routes.json"
+    },
+    "devDependencies": {
+      "babel-core": "^6.26.3",//run
+      "babel-plugin-transform-runtime": "^6.23.0",//使用
+      "babel-preset-env": "^1.7.0",//编译ES7
+      "babel-preset-stage-0": "^6.24.1",//编译ES7编译ES6
+      "del": "^3.0.0",
+      "gulp": "^3.9.1",
+      "gulp-babel": "^7.0.1",
+      "gulp-minify-css": "^1.2.4",
+      "gulp-minify-html": "^1.0.6",
+      "gulp-rev": "^8.1.1",
+      "gulp-rev-collector": "^1.3.1",
+      "gulp-sass": "^4.0.1",
+      "gulp-sequence": "^1.0.0",
+      "gulp-uglify": "^3.0.0",
+      "gulp-watch": "^5.0.0",
+      "gulp-webserver": "^0.9.1",
+      "http-proxy-middleware": "^0.18.0",
+      "json-server": "^0.13.0",
+      "sequence": "^3.0.0",
+      "string-loader": "0.0.1",
+      "webpack-stream": "^4.0.3",
+      "yo3": "^3.1.6",
+      "zepto": "^1.2.0"
+    },
+    "dependencies": {
+      "art-template": "^4.12.2",
+      "babel-runtime": "^6.26.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
